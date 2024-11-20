@@ -10,6 +10,9 @@ body {
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
+    padding: 50px;
+    animation: backInDown;
+    animation-duration: 2s;
 }
 
 .card {
@@ -17,8 +20,14 @@ body {
     border-radius: 15px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
     width: 300px;
+    height: 570px;
     padding: 20px;
     overflow: hidden;
+}
+
+.card:hover{
+    animation: pulse;
+    animation-duration: 2s;
 }
 
 .card-image {
