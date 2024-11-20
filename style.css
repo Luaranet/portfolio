@@ -62,6 +62,15 @@ body {
     gap: 5px;
 }
 
+.image-price{
+    width: 20px;
+    height: auto;
+}
+
+.save-icon{
+    width: 25px;
+    height: auto; 
+}
 
 .profile {
     display: flex;
